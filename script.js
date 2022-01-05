@@ -5,22 +5,23 @@ function alterarFonteSize() {
     let tamanhoDaFonte = 30;
 
     function aumentarFonte() {
-        tamanhoDaFonte += 10;
+        tamanhoDaFonte += 5;
         document.body.style.fontSize = tamanhoDaFonte + "px";
 
-        if(tamanhoDaFonte >= 100) {
+        if(tamanhoDaFonte >= 60) {
             alert("Tamanho Limite alcançado");
-            tamanhoDaFonte = 100;
+            tamanhoDaFonte = 60;
         }
-
-        return tamanhoDaFonte;
     }
 
     function diminuirFonte() {
-        tamanhoDaFonte -= 10;
+        tamanhoDaFonte -= 5;
         document.body.style.fontSize = tamanhoDaFonte + "px";
 
-        return tamanhoDaFonte;
+        if(tamanhoDaFonte <= 15) {
+            alert("Tamanho Limite alcançado");
+            tamanhoDaFonte = 15;
+        }
     }
 
     return {

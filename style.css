@@ -5,7 +5,10 @@ body{
 
 h2{
     text-align: center;
-    color: #aeafaa;
+    color: #d70930;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 100px;
+    margin-top: 70px;
 }
 
 h3{
@@ -17,7 +20,7 @@ h3{
 p{
     color: white;
     font-family: 'Luxurious Roman', cursive;
-    text-align: justify;
+    text-align: center;
 }
 
 img{
@@ -34,11 +37,17 @@ input{
     height: 70px;
     border-radius: 50%;
     font-size: 50px;
-    background-color: rgb(252, 188, 178);
+    background-color: #d70930;
     border: none;
+    color: #040404;
     /* display: flex;
     justify-content: center;
     align-items: center; */
+}
+
+input:hover{
+    cursor: pointer;
+
 }
 
 #fixo{
