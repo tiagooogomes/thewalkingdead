@@ -40,13 +40,19 @@ input{
     background-color: #d70930;
     border: none;
     color: #040404;
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
+}
+
+label{
+    color: #d0d1cc;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
 }
 
 input:hover{
     cursor: pointer;
+    background-color: transparent;
+    font-size: 70px;
+    color: #d70930;
 
 }
 
@@ -54,14 +60,12 @@ input:hover{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
     width: 75px;
-    height: 175px;
-    /* background-color: rgb(252, 188, 178); */
+    height: 220px;
     position: fixed;
     bottom: 300px;
     right: 20px;
-    border-radius: 8px;
-    padding-top: 0.5%;
 }
 
 footer{

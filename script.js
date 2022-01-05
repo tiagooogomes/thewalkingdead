@@ -25,17 +25,17 @@ function alterarFonteSize() {
     }
 
     return {
-        aumentarFonte: aumentarFonte,
-        diminuirFonte: diminuirFonte
+        aumentar: aumentarFonte,
+        diminuir: diminuirFonte
     };
 }
 
 let funcao = alterarFonteSize();
 
-function aumentar() {
-    funcao.aumentarFonte();
+function executarAumento() {
+    funcao.aumentar();
 }
 
-function diminuir() {
-    funcao.diminuirFonte();
+function executarDiminuicao() {
+    funcao.diminuir();
 }
